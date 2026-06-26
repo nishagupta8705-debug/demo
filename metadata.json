@@ -1,0 +1,6 @@
+{
+  "name": "HerbsBloom",
+  "description": "A elegant skincare website featuring botanical and natural products with Home, About Us, Products, Blog, and Contact sections.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

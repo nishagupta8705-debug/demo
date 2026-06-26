@@ -1,0 +1,12 @@
+# https://www.robotstxt.org/robotstxt.html
+# HerbsBloom Botanical Skincare - Robots Exclusion File
+
+# Allow all search engines to crawl our public pages
+User-agent: *
+Allow: /
+
+# Exclude crawlers from indexing duplicate content or assets if necessary
+Disallow: /_redirects
+
+# Point to our official XML sitemap
+Sitemap: https://herbsbloom.com/sitemap.xml
