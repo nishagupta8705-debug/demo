@@ -101,9 +101,8 @@ export default function HomeView({ onPageChange, onSelectProduct, onAddToCart }:
                 Nature's Touch for Healthy, Radiant Skin
               </p>
               <p className="font-sans text-base sm:text-lg text-brand-dark/70 max-w-2xl leading-relaxed">
-                At HerbsBloom, we believe that healthy skin begins with the power of nature. Our
-                skincare products are crafted with carefully selected botanical ingredients to
-                nourish, protect, and rejuvenate your skin without any harsh chemical shortcuts.
+               Discover HerbsBloom botanical skincare with organic serums, creams, and dermatologist-tested cleansers for healthy skin.
+
               </p>
               <div id="hero-ctas" className="flex flex-wrap gap-4 pt-4">
                 <button
