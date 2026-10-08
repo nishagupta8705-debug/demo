@@ -9,7 +9,7 @@ import useSEO from '../hooks/useSEO';
 export default function AboutView() {
   useSEO({
     title: "About Us | Our Botanical Philosophy | HerbsBloom",
-    description: "Learn about HerbsBloom, a natural herbal skincare brand offering plant-based organic skincare with botanical transparency and sustainable practices.
+    description: "Learn about HerbsBloom, a natural herbal skincare brand offering plant-based organic skincare with botanical transparency and sustainable practices."
 
   });
   const coreValues = [
