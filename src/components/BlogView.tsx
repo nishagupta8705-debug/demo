@@ -12,7 +12,8 @@ import useSEO from '../hooks/useSEO';
 export default function BlogView() {
   useSEO({
     title: "Botanical Skincare Guides & Journal | HerbsBloom Blog",
-    description: "Dive into the HerbsBloom Botanical Skincare Journal. Learn morning routines, summer uv skin protection techniques, organic herb extractions, and certified skin barrier nourishment guides."
+    description: "Explore the HerbsBloom skincare blog for natural skincare tips, morning routines, UV protection, herbal remedies, and skin barrier care guides."
+
   });
   const [selectedArticle, setSelectedArticle] = useState<BlogArticle | null>(null);
   const [likedArticles, setLikedArticles] = useState<Record<string, boolean>>({});
