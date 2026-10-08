@@ -24,7 +24,7 @@ export default function ProductsView({
 }: ProductsViewProps) {
   useSEO({
     title: "Our Collection | Premium Organic Serums & Creams | HerbsBloom",
-    description: "Explore the complete medicinal plant skincare collection of HerbsBloom: natural facial cleansers, pH-balanced toners, premium aloe moisturizers, and cellular renewal serums."
+    description: "Explore HerbsBloom’s natural herbal skincare collection, featuring facial cleansers, pH-balanced toners, aloe moisturizers, and renewal serums."
   });
   const [activeCategory, setActiveCategory] = useState<string>('All');
   const [searchQuery, setSearchQuery] = useState<string>('');
