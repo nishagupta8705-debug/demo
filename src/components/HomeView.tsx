@@ -17,7 +17,7 @@ interface HomeViewProps {
 export default function HomeView({ onPageChange, onSelectProduct, onAddToCart }: HomeViewProps) {
   useSEO({
     title: "HerbsBloom | Organic Skincare & Botanical Serums",
-    description: "Discover botanical skincare inspired by plant intelligence. Explore HerbsBloom's hand-harvested organic serums, creams, and dermatologist-tested face cleansers."
+    description: "Discover HerbsBloom natural herbal skincare with organic serums, creams, and face cleansers for healthy, glowing, and radiant skin."
   });
   // Extract the featured products specified in the user request
   const featuredNames = [
