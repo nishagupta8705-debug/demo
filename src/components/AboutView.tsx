@@ -9,7 +9,8 @@ import useSEO from '../hooks/useSEO';
 export default function AboutView() {
   useSEO({
     title: "About Us | Our Botanical Philosophy | HerbsBloom",
-    description: "Learn about the HerbsBloom skincare mission. We design ethical, 100% plant-based organic skincare with full botanical transparency and sustainable practices based in Austin."
+    description: "Learn about HerbsBloom, a natural herbal skincare brand offering plant-based organic skincare with botanical transparency and sustainable practices.
+
   });
   const coreValues = [
     {
