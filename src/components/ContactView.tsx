@@ -12,7 +12,8 @@ import useSEO from '../hooks/useSEO';
 export default function ContactView() {
   useSEO({
     title: "Contact Our Botanical Team | Austin Wellness | HerbsBloom",
-    description: "Connect directly with the HerbsBloom skin health customer experience team in Austin, Texas. Ask about plant-based ingredients, package delivery tracking, or retail consulting."
+    description: "Contact HerbsBloom for skincare inquiries, herbal ingredient details, order tracking, and personalized customer support for your skincare needs."
+
   });
   const [fullName, setFullName] = useState('');
   const [email, setEmail] = useState('');
