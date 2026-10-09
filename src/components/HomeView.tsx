@@ -7,7 +7,7 @@ import { Flame, ShieldCheck, HeartPulse, Sparkles, Award, Star, ArrowRight, Shop
 import { PRODUCTS } from '../data';
 import { Product } from '../types';
 import useSEO from '../hooks/useSEO';
-
+import HeroImage from '../../assets/'
 interface HomeViewProps {
   onPageChange: (page: string) => void;
   onSelectProduct: (product: Product) => void;
